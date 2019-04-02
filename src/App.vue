@@ -1,7 +1,6 @@
 <template>
   <div id="app" class="container">
       <input type="text" 
-        class="form-control col-md-6" 
         @keyup.prevent="search"
         v-model="query" />
     

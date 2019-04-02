@@ -1,7 +1,6 @@
 <template>
   <div id="app" class="container">
-      <input type="text" 
-        class="form-control col-md-6" 
+      <input type="text"
         @keyup.prevent="search"
         v-model="query" />
     
@@ -11,8 +10,8 @@
           :ref="`card_${index}`"
           class="card">
 
-            <h4 class="card-title">{{value._source.yourjsonfield_1}}</h4>
-            <span class="card-author">{{value._source.yourjsonfield_2}}</span>
+            <h4>{{value._source.yourjsonfield_1}}</h4>
+            <span>{{value._source.yourjsonfield_2}}</span>
         </div>
     </div>
   </div>

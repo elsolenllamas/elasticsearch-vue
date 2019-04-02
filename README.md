@@ -16,5 +16,11 @@ sudo systemctl enable elasticsearch
 
 ### Create a node express server  
 
-run server with command: node server
+create a new folder "/server" and create a node script server.js  
+run server with command: node server  
+  
+### Indexing Data  
+create or import data into a json file (example: data.json)  
+create node script to index elasticsearch data
+
 
